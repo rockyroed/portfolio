@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-text: #cdd6f4;
-  --color-background: #11111b;
-  --color-primary: #89dceb;
-  --color-secondary: #f5c2e7;
-  --color-accent: #a6e3a1;
+  --color-text: #ddc7a1;
+  --color-background: #1b1b1b;
+  --color-primary: #7daea3;
+  --color-secondary: #d3869b;
+  --color-accent: #89b482;
 
   --animate-infinite-scroll: infinite-scroll 50s linear infinite;
   @keyframes infinite-scroll {
