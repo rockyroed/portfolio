@@ -2,7 +2,7 @@ import { Mouse } from "@/components/Hero/Mouse";
 
 const Hero = () => {
   return (
-    <div className="pt-[160px] flex text-center flex-col justify-between items-center gap-y-[160px]">
+    <div className="pt-[160px] flex text-center flex-col justify-between items-center gap-y-[200px]">
       <div className="flex flex-col justify-center items-center gap-y-[32px]">
         <h1 className="text-5xl/16 font-bold w-2/3">
           Paving the Web to Create Smooth Digital Journeys

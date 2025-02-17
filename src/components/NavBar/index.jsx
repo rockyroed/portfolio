@@ -7,7 +7,7 @@ const NavBar = () => {
         <img
           src="/images/logo-transparent.png"
           alt="logo"
-          className="w-[40px] h-[40px] rounded-full"
+          className="w-[40px]"
           loading="eager"
           decoding="async"
         />
@@ -15,6 +15,7 @@ const NavBar = () => {
       </div>
       <div className="flex justify-end items-center gap-2 w-auto">
         <Button value="About" />
+        <Button value="Stats" />
         <Button value="Projects" />
         <Button value="Certificates" />
         <Button value="Contact" />
