@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center h-auto gap-y-[40px] my-[80px] w-full">
       <h2 className="font-bold text-3xl">About</h2>
-      <div className="flex w-3/4">
+      <div className="flex w-2/3">
         <div className="w-full">
           <img
             src="/images/formal-picture.png"
