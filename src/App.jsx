@@ -5,8 +5,10 @@ import About from "@/components/About";
 const App = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-background text-text mx-[16px]">
-      <NavBar />
-      <Hero />
+      <div className="h-screen w-full">
+        <NavBar />
+        <Hero />
+      </div>
       <About />
     </div>
   );
