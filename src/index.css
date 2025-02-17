@@ -6,7 +6,7 @@
   --color-primary: #7daea3;
   --color-secondary: #d3869b;
   --color-accent: #89b482;
-  --color-white-22: #ffff22;
+  --color-white-22: #ffffff22;
 
   --animate-infinite-scroll: infinite-scroll 50s linear infinite;
   @keyframes infinite-scroll {
