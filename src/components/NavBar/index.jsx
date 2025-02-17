@@ -2,7 +2,7 @@ import Button from "@/components/Button";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between px-[32px] h-[80px] w-full fixed top-0 bg-background shadow-md">
+    <div className="flex items-center justify-between px-[32px] h-[80px] w-full fixed top-0 bg-background">
       <div className="flex justify-start items-center w-full gap-2">
         <img
           src="/images/logo-transparent.png"
