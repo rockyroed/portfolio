@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="flex justify-start items-center w-full gap-2">
         <img
           src="/images/logo-transparent.png"
-          alt="profile"
+          alt="logo"
           className="w-[40px] h-[40px] rounded-full"
           loading="eager"
           decoding="async"
