@@ -1,15 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --color-text: #ddc7a1;
-  --color-background: #1b1b1b;
-  --color-background-100: #2b2b2b;
-  --color-primary: #7daea3;
-  --color-secondary: #d3869b;
-  --color-accent: #89b482;
-  --color-white-22: #ffffff22;
+  --color-text: oklch(83.85% 0.056 81.25);
+  --color-background-dim: oklch(22.21% 0 89.88);
+  --color-background: oklch(27.68% 0 89.88);
+  --color-background-100: oklch(31.09% 0.003 48.62);
+  --color-background-200: oklch(37.55% 0.009 53.24);
+  --color-background-300: oklch(44.44% 0.014 59.29);
+  --color-primary: oklch(71.28% 0.055 179.19);
+  --color-secondary: oklch(70.54% 0.098 2.19);
+  --color-accent: oklch(72.56% 0.085 141.09);
 
-  --animate-infinite-scroll: infinite-scroll 50s linear infinite;
+  --color-red: oklch(67.68% 0.161 25.42);
+  --color-orange: oklch(72.08% 0.136 51.78);
+  --color-yellow: oklch(75.58% 0.113 77.04);
+  --color-green: oklch(74.78% 0.107 116.53);
+  --color-aqua: oklch(72.56% 0.085 141.09);
+  --color-blue: oklch(71.28% 0.055 179.19);
+  --color-purple: oklch(70.54% 0.098 2.19);
+  --color-grey: oklch(55.05% 0.023 62.57);
+  --color-grey-100: oklch(61.92% 0.029 67.26);
+  --color-grey-200: oklch(69.03% 0.035 76.31);
+
+  /* --animate-infinite-scroll: infinite-scroll 50s linear infinite;
   @keyframes infinite-scroll {
     0% {
       transform: translateX(0);
@@ -17,31 +30,29 @@
     100% {
       transform: translateX(-100%);
     }
-  }
+  } */
 }
 
 :root {
-  background-color: var(--color-background);
+  background-color: var(--color-background-dim);
 }
 
 /* inter-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/inter-v18-latin-regular.woff2") format("woff2"),
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("/fonts/inter-v18-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("/fonts/inter-v18-latin-regular.ttf") format("truetype");
 }
 
 /* inter-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/inter-v18-latin-700.woff2") format("woff2"),
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("/fonts/inter-v18-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("/fonts/inter-v18-latin-700.ttf") format("truetype");
 }
