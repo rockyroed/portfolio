@@ -3,14 +3,14 @@ const About = () => {
     <div className="flex flex-col items-center h-auto gap-y-[40px] my-[80px] w-full">
       <h2 className="font-bold text-3xl">About</h2>
       <div className="flex w-2/3 gap-x-[40px]">
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-end">
           <img
             src="/images/formal-picture.png"
             alt="formal picture"
             className="h-[320px] rounded-lg"
           />
         </div>
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-start">
           <p>
             I am Christian Roed Boyles, a skilled Frontend Developer, Web
             Developer, and Programmer with expertise in HTML, CSS, JavaScript,
