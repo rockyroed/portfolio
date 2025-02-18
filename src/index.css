@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-text: oklch(83.85% 0.056 81.25);
+  --color-foreground: oklch(83.85% 0.056 81.25);
+  --color-foreground-100: oklch(81.06% 0.057 81.23);
   --color-background-dim: oklch(22.21% 0 89.88);
   --color-background: oklch(27.68% 0 89.88);
   --color-background-100: oklch(31.09% 0.003 48.62);
