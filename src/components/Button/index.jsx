@@ -1,9 +1,16 @@
+import PropTypes from 'prop-types';
+
 const Button = ({ value }) => {
   return (
-    <button className="cursor-pointer font-normal text-foreground text-[16px] p-[8px] w-max transform transition-transform duration-200 hover:scale-110 hover:bg-background rounded-full">
+    <button className="cursor-pointer font-semibold text-text text-h5 px-4 py-1.5 hover:bg-background rounded-full">
       {value}
     </button>
   );
 };
+
+Button.propTypes = {
+  value: PropTypes.string.isRequired,
+};
+
 
 export default Button;

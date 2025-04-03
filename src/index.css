@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  /* Main Colors */
   --color-foreground: oklch(83.85% 0.056 81.25);
+  --color-text: oklch(98.81% 0.000 89.88);
   --color-foreground-100: oklch(81.06% 0.057 81.23);
   --color-background-dim: oklch(22.21% 0 89.88);
   --color-background: oklch(27.68% 0 89.88);
@@ -12,6 +14,7 @@
   --color-secondary: oklch(70.54% 0.098 2.19);
   --color-accent: oklch(72.56% 0.085 141.09);
 
+  /* Semantic Colors */
   --color-red: oklch(67.68% 0.161 25.42);
   --color-orange: oklch(72.08% 0.136 51.78);
   --color-yellow: oklch(75.58% 0.113 77.04);
@@ -23,15 +26,31 @@
   --color-grey-100: oklch(61.92% 0.029 67.26);
   --color-grey-200: oklch(69.03% 0.035 76.31);
 
-  /* --animate-infinite-scroll: infinite-scroll 50s linear infinite;
-  @keyframes infinite-scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  } */
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", monospace;
+
+  /* Font Sizes */
+  --text-h1: 3rem;
+  --text-h2: 2.5rem;
+  --text-h3: 2.062rem;
+  --text-h4: 1.750rem;
+  --text-h5: 1.438rem;
+  --text-h6: 1.188rem;
+  --text-base: 1rem;
+  --text-sm: 0.812rem;
+  --text-xs: 0.688rem;
+
+  /* Font Weights */
+  /* --font-h1: 3rem;
+  --font-h2: 2.5rem;
+  --font-h3: 2.062rem;
+  --font-h4: 1.750rem;
+  --font-h5: 1.438rem;
+  --font-h6: 1.188rem;
+  --font-base: 1rem;
+  --font-sm: 0.812rem;
+  --font-xs: 0.688rem; */
 }
 
 :root {
@@ -45,7 +64,7 @@
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/inter-v18-latin-regular.woff2") format("woff2"),
-      url("/fonts/inter-v18-latin-regular.ttf") format("truetype");
+    url("/fonts/inter-v18-latin-regular.ttf") format("truetype");
 }
 
 /* inter-700 - latin */
@@ -55,5 +74,25 @@
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/inter-v18-latin-700.woff2") format("woff2"),
-      url("/fonts/inter-v18-latin-700.ttf") format("truetype");
+    url("/fonts/inter-v18-latin-700.ttf") format("truetype");
+}
+
+/* jetbrains-mono-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/jetbrains-mono-v20-latin-regular.woff2") format("woff2"),
+    url("../fonts/jetbrains-mono-v20-latin-regular.ttf") format("truetype");
+}
+
+/* jetbrains-mono-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/jetbrains-mono-v20-latin-700.woff2") format("woff2"),
+    url("../fonts/jetbrains-mono-v20-latin-700.ttf") format("truetype");
 }

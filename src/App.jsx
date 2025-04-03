@@ -5,7 +5,7 @@ import Stats from "@/components/Stats";
 
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-foreground mx-[16px]">
+    <div className="flex flex-col justify-center items-center text-foreground mx-24">
       <div className="w-full">
         <NavBar />
         <Hero />
