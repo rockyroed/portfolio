@@ -20,12 +20,24 @@ const Hero = () => {
         <CTAButton value="Contact Me" />
       </div>
       <div className="w-1/2 flex justify-center">
-        <FloatingHeading value="Device Responsiveness" className="top-40 -left-40" />
+        <FloatingHeading
+          value="Device Responsiveness"
+          className="top-40 -left-40"
+        />
         <FloatingHeading value="Web Development" className="top-15 -left-20" />
-        <div className="pt-16 w-[35rem]">
-          <img src="/images/hero.png" alt="Hero Image" className="w-full" />
+        <div className="pt-16 w-[38rem] h-[38rem]">
+          <img
+            className="w-full"
+            src="/images/hero.png"
+            alt="Hero Image"
+            loading="eager"
+            decoding="async"
+          />
         </div>
-        <FloatingHeading value="Frontend Development" className="top-15 -left-40" />
+        <FloatingHeading
+          value="Frontend Development"
+          className="top-15 -left-40"
+        />
         <FloatingHeading value="API Integration" className="top-40 -left-20" />
       </div>
     </div>
