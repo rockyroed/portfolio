@@ -23,7 +23,7 @@ const Hero = () => {
         <FloatingHeading value="Device Responsiveness" className="top-40 -left-40" />
         <FloatingHeading value="Web Development" className="top-15 -left-20" />
         <div className="pt-16">
-          <img src="/images/hero.png" alt="Hero Image" className="w-[35rem]" />
+          <img src="/portfolio/images/hero.png" alt="Hero Image" className="w-[35rem]" />
         </div>
         <FloatingHeading value="Frontend Development" className="top-15 -left-40" />
         <FloatingHeading value="API Integration" className="top-40 -left-20" />
