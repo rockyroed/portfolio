@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const Button = ({ value }) => {
+export const NavBarButton = ({ value }) => {
   return (
     <button className="cursor-pointer font-semibold text-text text-h5 px-4 py-1.5 hover:bg-background rounded-full">
       {value}
@@ -8,7 +8,7 @@ const Button = ({ value }) => {
   );
 };
 
-Button.propTypes = {
+NavBarButton.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
