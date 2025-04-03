@@ -12,5 +12,14 @@ NavBarButton.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
+export const CTAButton = ({ value }) => {
+  return (
+    <button className="cursor-pointer w-max rounded-xl bg-accent text-text text-h5 font-semibold px-8 py-4">
+      {value}
+    </button>
+  );
+};
 
-export default Button;
+CTAButton.propTypes = {
+  value: PropTypes.string.isRequired,
+};
