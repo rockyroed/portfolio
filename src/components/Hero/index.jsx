@@ -4,7 +4,7 @@ import { FloatingHeading } from "@/components/Hero/Float";
 const Hero = () => {
   return (
     <div className="py-16 flex justify-between items-center">
-      <div className="flex flex-col gap-11 w-1/2 px-8">
+      <div className="flex flex-col gap-11 w-1/2 pr-8">
         <div className="flex flex-col gap-6">
           <h1 className="text-h1 font-semibold text-text">
             Building{" "}
