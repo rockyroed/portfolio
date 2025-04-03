@@ -22,8 +22,8 @@ const Hero = () => {
       <div className="w-1/2 flex justify-center">
         <FloatingHeading value="Device Responsiveness" className="top-40 -left-40" />
         <FloatingHeading value="Web Development" className="top-15 -left-20" />
-        <div className="pt-16">
-          <img src="/portfolio/images/hero.png" alt="Hero Image" className="w-[35rem]" />
+        <div className="pt-16 w-[35rem]">
+          <img src="/images/hero.png" alt="Hero Image" className="w-full" />
         </div>
         <FloatingHeading value="Frontend Development" className="top-15 -left-40" />
         <FloatingHeading value="API Integration" className="top-40 -left-20" />

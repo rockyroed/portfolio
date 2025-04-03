@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className="flex items-center justify-between h-20 w-full py-5">
       <div className="flex justify-start items-center w-auto h-max gap-x-1">
         <img
-          src="/portfolio/images/logo-transparent.png"
+          src="/images/logo-transparent.png"
           alt="logo"
           className="w-12"
           loading="eager"

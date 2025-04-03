@@ -5,7 +5,7 @@ const About = () => {
       <div className="flex w-2/3 gap-x-[40px]">
         <div className="w-full flex justify-end">
           <img
-            src="/portfolio/images/formal-picture.png"
+            src="/images/formal-picture.png"
             alt="formal picture"
             className="h-[320px] rounded-lg"
           />
