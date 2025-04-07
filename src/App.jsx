@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Stack from "@/components/Stack";
-// import About from "@/components/About";
+import About from "@/components/About";
 // import Stats from "@/components/Stats";
 
 const App = () => {
@@ -10,8 +10,8 @@ const App = () => {
       <NavBar />
       <Hero />
       <Stack />
-      {/* <About />
-      <Stats /> */}
+      <About />
+      {/* <Stats /> */}
     </div>
   );
 };
