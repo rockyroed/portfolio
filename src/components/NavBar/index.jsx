@@ -2,7 +2,7 @@ import { NavBarButton } from "@/components/Button";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between h-20 w-full py-5">
+    <div className="flex items-center justify-between h-20 w-full py-5 px-24">
       <div className="flex justify-start items-center w-auto h-max gap-x-1">
         <img
           src="/images/logo-transparent.png"
