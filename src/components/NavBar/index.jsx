@@ -8,7 +8,7 @@ const NavBar = () => {
           src="/images/logo-transparent.png"
           alt="logo"
           className="w-12"
-          loading="eager"
+          loading="lazy"
           decoding="async"
         />
         <h4 className="font-semibold font-jetbrains-mono text-h4 font-md">

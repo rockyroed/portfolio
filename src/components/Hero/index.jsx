@@ -30,7 +30,7 @@ const Hero = () => {
             className="w-full"
             src="/images/hero.png"
             alt="Hero Image"
-            loading="eager"
+            loading="lazy"
             decoding="async"
           />
         </div>
