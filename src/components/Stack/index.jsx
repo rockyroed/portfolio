@@ -1,6 +1,6 @@
 const Stack = () => {
   return (
-    <div className="w-full h-40 flex justify-between items-center bg-background px-24">
+    <div className="w-screen px-24 h-40 flex justify-between items-center bg-background">
       <img
         className="w-[9.375rem] h-[3.145625rem]"
         src="/images/stack/html.png"

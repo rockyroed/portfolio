@@ -6,7 +6,7 @@ import About from "@/components/About";
 
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center px-24">
       <NavBar />
       <Hero />
       <Stack />

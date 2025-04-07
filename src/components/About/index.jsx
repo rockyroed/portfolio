@@ -2,7 +2,7 @@ import { CTAButton } from "../Button";
 
 const About = () => {
   return (
-    <div className="flex gap-x-10 h-auto px-24 pt-28 pb-14">
+    <div className="flex gap-x-10 h-auto pt-28 pb-14">
       <div className="w-1/3">
         <img
           className="w-full"
