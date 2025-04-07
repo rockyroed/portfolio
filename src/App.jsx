@@ -2,7 +2,7 @@ import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Stack from "@/components/Stack";
 import About from "@/components/About";
-// import Stats from "@/components/Stats";
+import Stats from "@/components/Stats";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Hero />
       <Stack />
       <About />
-      {/* <Stats /> */}
+      <Stats />
     </div>
   );
 };
