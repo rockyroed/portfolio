@@ -6,7 +6,7 @@ import Stack from "@/components/Stack";
 
 const App = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-foreground">
+    <div className="flex flex-col justify-center items-center">
       <NavBar />
       <Hero />
       <Stack />
