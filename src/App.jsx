@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Stack from "@/components/Stack";
 import About from "@/components/About";
 import Stats from "@/components/Stats";
+import SkillsAndServices from "@/components/SkillsAndServices";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Stack />
       <About />
       <Stats />
+      <SkillsAndServices />
     </div>
   );
 };
