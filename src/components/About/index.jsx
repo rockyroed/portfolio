@@ -40,7 +40,7 @@ const About = () => {
                 fill="white"
               />
             </svg>
-            <h6 className="text-h6">christianroedpboyles@pm.me</h6>
+            <h6 className="text-h6">christianroedpboyles@protonmail.com</h6>
           </div>
           <div className="flex items-center gap-3">
             <svg
