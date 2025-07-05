@@ -7,7 +7,7 @@ const SkillsAndServices = () => {
         {"<Skills and Services />"}
       </h2>
       {skillsList.map((skill, index) => (
-        <div key={index} className="bg-background-dim px-6 py-9">
+        <div key={index} className="bg-background-dim px-6 rounded-xl py-9">
           <h5 className="text-h5 text-primary mb-4">{skill.title}</h5>
           <p className="text-base text-text mb-2">{skill.description}</p>
           <p className="text-base text-grey">{skill.technologies}</p>
