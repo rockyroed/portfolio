@@ -26,7 +26,7 @@ const About = () => {
           I build fast, responsive, and user-focused websites that transform
           complex challenges into seamless, high-performing digital experiences.
         </h6>
-        <div className="border-t-1 border-b-1 border-border mb-10 border-grey-100 px-5 py-7 grid grid-cols-1 gap-y-5">
+        <div className="border-t-1 border-b-1 border-border mb-10 border-grey-100 px-5 py-7 grid grid-cols-2 gap-y-5">
           <div className="flex items-center gap-3">
             <svg
               width="24"
